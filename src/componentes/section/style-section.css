@@ -1,0 +1,42 @@
+.areaSessao{
+    width: 100%;
+}
+
+.areaSessao #sorteio{
+    width: 50vw;
+    height: max-content;
+    margin: 0 auto;
+    border: 1px solid rgb(224, 239, 238);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px gray;
+    padding: 20px;
+    background-color: rgb(224, 239, 238);
+
+}
+
+.areaTexto{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.areaNumero{
+    background-color: white;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.areaBtn{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.sortear{
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px
+
+}

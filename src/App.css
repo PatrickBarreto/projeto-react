@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+*{
+    border:0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*##############Header##############*/
+
+header{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header #logo{
+    display: inline-table;
+    width: auto;
+    height: 9vh;
+    position: relative;
+    float:left;
+    left: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header nav{
+    display: inline-table;
+    color: white;
+    list-style:none;
+    position: relative;
+    float:right;
+    right: 50px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+header nav ul{
+    list-style:none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header nav ul li{
+    display: inline-block;
+    margin: 23px 20px 0 0;
+    
+}
+
+/*##############Main##############*/
+
+main{
+    padding: 80px 0;
+}
+
+
+/*##############Section##############*/
+
+section{
+    height: 70%;
+    width: 100vw;
+    padding: 25px;
+}
+section h3{
+    text-align: center;
+}
+
+section #modelos{
+    text-align: center;
+}
+
+section .modelo{
+    border: 1px solid rgb(203, 203, 203);
+    width: calc(100%/4);
+    margin: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px rgb(203, 203, 203);
+}
+
+section .modelo img{
+    width: calc(100%);
+    height: 190px;
+}
+
+
+
+
+
+
+/*##############Footer##############*/
+footer{
+    background-color: black;
+    height: 50vh;
+}
+
+footer figure{
+    display:inline-table;
+    color:white;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    left:50px;
+}
+
+footer figure #logo{
+    display:block;
+    width: auto;
+    height: 20vh;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+footer figure figcaption{
+    display:block;
+}
+
+footer nav{
+    display: inline-table;
+    color: white;
+    list-style:none;
+    position: relative;
+    float:right;
+    top: 50px;
+    right: 50px;
+    
+}
+
+footer nav ul{
+    list-style:none;
+}
+
+footer nav ul li{
+    text-align: left;
+    display: inline-table;   
+}
+
+footer nav ul li ul{
+    text-align: center;
+    display: block;
+    margin: 13px 20px
+    
+}
+
+footer nav ul li ul li{
+    text-align: center;
+    display: block;    
 }
